@@ -1,0 +1,69 @@
+.headerMain-container{
+    background-image: url(../../../../image/bg.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position:relative;
+    z-index: 2;
+}
+
+.headerMain-container::before{
+    position: absolute;
+    content: "";
+    top:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.heading{
+    padding: 100px;
+    
+}
+
+.heading h1{
+    color: #00c3ed;
+    font-size: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    display: inline;
+    background-color: rgb(12, 11, 27, 0.4);
+    border-top: #00c3ed 2px solid;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.heading h2{
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.heading button{
+    color: white;
+    background-color: rgb(0, 144, 177);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 60px;
+    color: rgb(255, 255, 255);
+    border:none;
+}
+
+.heading button:hover{
+    color: white;
+    background-color: rgb(58, 189, 212);
+}
+
+
+
