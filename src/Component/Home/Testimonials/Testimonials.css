@@ -1,0 +1,19 @@
+
+.testimonials-header{
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    color:#002c42
+}
+
+.testimonials-header h1{
+    color:#002c42;
+    font-size: 3.125rem;
+}
+
+.testimonials-header p{
+    color:gray;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    line-height: 1.8em;
+    font-size: 1.13rem;
+}

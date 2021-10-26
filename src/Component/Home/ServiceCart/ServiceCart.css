@@ -1,0 +1,45 @@
+
+
+.service-container{
+    margin: 10px;
+ }
+.service-img img{
+    height: auto;
+    width: 100%;
+    border-radius: 0 50px 0 0;
+}
+
+
+
+.service-main{
+    width: 85%;
+    margin: auto;
+    padding:30px;
+    border-radius: 0  0 0 50px;
+    position: relative;
+    margin-top: -50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-icon {
+    position: absolute;
+    height: auto;
+    content: "";
+    top: -30px;
+    left: 17px;
+    background-color: #1bacd6;
+    border-radius: 3px;
+
+}
+
+.service-icon:hover{
+    background-color: #263856;
+    transition: 0.5s;
+}
+.service-heading h4{
+color: #263856;
+font-weight: 700;
+line-height: 1.5;
+margin-bottom: 0.5rem;
+margin-top: 0.75rem;
+}

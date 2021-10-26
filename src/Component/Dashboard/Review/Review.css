@@ -1,0 +1,17 @@
+.review{
+   margin-top: 40px;
+}
+
+.review h1{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.review-from .form-group input{
+    padding:10px;
+}
+
+.review-from .form-group{
+    width: 70%;
+    margin:auto;
+}

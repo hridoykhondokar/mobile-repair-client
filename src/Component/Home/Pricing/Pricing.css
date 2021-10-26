@@ -1,0 +1,18 @@
+.Pricing-header{
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    color:#002c42
+}
+
+.Pricing-header h1{
+    color:#002c42;
+    font-size: 3.125rem;
+}
+
+.Pricing-header p{
+    color:gray;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    line-height: 1.8em;
+    font-size: 1.13rem;
+}

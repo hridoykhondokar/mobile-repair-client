@@ -7,7 +7,7 @@ const HeaderMain = () => {
             <div className='heading'>
                 <h1>Repair Shop</h1>
                 <h2>Trusted Repair <br /> Service</h2>
-                <button type="">Read More</button>
+                <button className='btn-brand' type="">Read More</button>
             </div>
         </div>
     );

@@ -1,0 +1,17 @@
+.admin{
+    margin-top: 40px;
+ }
+ 
+ .admin h1{
+     font-family: 'Poppins', sans-serif;
+     margin-bottom: 30px;
+ }
+ 
+ .admin-form .form-group input{
+     padding:10px;
+ }
+ 
+ .admin-form .form-group{
+     width: 70%;
+     margin:auto;
+ }

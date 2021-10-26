@@ -1,0 +1,58 @@
+.pricing-main{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgba(0, 46, 90, 0.9);
+    padding: 50px;
+    color:#fff;
+}
+
+
+.pricing-main h6{
+   font-weight: 300;
+   letter-spacing:1px;
+   padding-bottom: 10px;
+
+}
+
+.pricing-main .price b{
+    font-weight: bold;
+    font-size:50px;
+    letter-spacing:1px;
+    padding-bottom: 10px;
+ 
+ }
+
+ 
+ .pricing-list ul{
+     padding-top: 40px;
+     width: 100%;
+     font-family: 'Poppins', sans-serif;
+     color:gray;
+     font-weight: 300;
+     letter-spacing:1px;
+     padding-right: 30px;
+     
+ }
+ .pricing-list ul li{
+     list-style-type: none;
+     padding:10px 0;
+     border-bottom: 1px rgb(236, 233, 233) solid;
+ }
+
+ .pricing-list button{
+    color: white;
+    background-color: rgb(58, 189, 212);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(58, 189, 212);
+    margin: 20px 0;
+    border-radius:50px;
+}
+
+.pricing-list button:hover{
+    color: rgb(58, 189, 212);
+    background-color:white;
+    border: 2px solid rgb(58, 189, 212);
+}

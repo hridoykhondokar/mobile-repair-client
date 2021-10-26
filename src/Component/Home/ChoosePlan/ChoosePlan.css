@@ -1,0 +1,24 @@
+.plan ul{
+    margin-top: 70px;
+}
+
+.plan ul li{
+   list-style-type: none;
+   text-align: start;
+   padding: 5px;
+   font-size:20px;
+   font-weight: 200;
+  
+}
+
+
+.plan h2{
+    color: black;
+    font-size: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    display: inline;
+    border-bottom: #00c3ed 2px solid;
+    border-left: #00c3ed 2px solid;
+    font-family: 'Poppins', sans-serif;
+}
