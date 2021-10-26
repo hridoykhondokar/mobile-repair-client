@@ -20,7 +20,7 @@ const AllOrder = () => {
 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/plansDetails`)
+    fetch(`https://mighty-island-77789.herokuapp.com/plansDetails`)
       .then(res => res.json())
       .then(data => setPlansDetails(data))
   }, [plansDetails]);
@@ -30,7 +30,7 @@ const AllOrder = () => {
     const updateData = {
         status: 'done'
     }
-    fetch(`http://localhost:5000/updateStatus/${id}`, {
+    fetch(`https://mighty-island-77789.herokuapp.com/updateStatus/${id}`, {
         method: 'PATCH',
         headers: {
             'content-type': 'application/json'
@@ -46,7 +46,7 @@ const handleOngoingStatus = (id) => {
     const updateData = {
         status: 'ongoing'
     }
-    fetch(`http://localhost:5000/updateStatus/${id}`, {
+    fetch(`https://mighty-island-77789.herokuapp.com/updateStatus/${id}`, {
         method: 'PATCH',
         headers: {
             'content-type': 'application/json'

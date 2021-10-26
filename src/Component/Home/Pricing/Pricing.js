@@ -9,7 +9,7 @@ const Pricing = () => {
     const [plans, setPlans] = useState([]);
 
     useEffect(() => {
-         fetch('http://localhost:5000/getPlans')
+         fetch('https://mighty-island-77789.herokuapp.com/getPlans')
         .then(res => res.json())
         .then(data => setPlans(data))
     },[])

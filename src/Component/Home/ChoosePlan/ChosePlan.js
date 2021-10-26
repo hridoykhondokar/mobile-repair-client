@@ -19,7 +19,7 @@ const ChosePlan = (props) => {
     
 
     useEffect(() => {
-        fetch(`http://localhost:5000/getPlan/${id}`)
+        fetch(`https://mighty-island-77789.herokuapp.com/getPlan/${id}`)
             .then(res => res.json())
             .then(data => setPlans(data[0]))
     }, [id])
@@ -52,7 +52,7 @@ const ChosePlan = (props) => {
       if(bankData){
         const orderInfo = {...shipmentInfo, paypalOrderId:bankData}
 
-        fetch('http://localhost:5000/userInfo', {
+        fetch('https://mighty-island-77789.herokuapp.com/userInfo', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(orderInfo)

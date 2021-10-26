@@ -10,7 +10,7 @@ const SideBar = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
    const [admin, setAdmin] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/admin/${loggedInUser.email}`)
+        fetch(`https://mighty-island-77789.herokuapp.com/admin/${loggedInUser.email}`)
         .then(res => res.json())
         .then(data => setAdmin(data))
     })

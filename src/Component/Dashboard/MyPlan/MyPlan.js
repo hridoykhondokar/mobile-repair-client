@@ -20,7 +20,7 @@ const MyPlan = () => {
 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/plansDetails/${loggedInUser.email}`)
+    fetch(`https://mighty-island-77789.herokuapp.com/plansDetails/${loggedInUser.email}`)
       .then(res => res.json())
       .then(data => setPlansDetails(data))
   }, [loggedInUser.email]);

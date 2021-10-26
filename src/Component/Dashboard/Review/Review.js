@@ -16,7 +16,7 @@ const Review = () => {
             imageURL: imageURL
         }
 
-        fetch('http://localhost:5000/addReview', {
+        fetch('https://mighty-island-77789.herokuapp.com/addReview', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(reviewData)
